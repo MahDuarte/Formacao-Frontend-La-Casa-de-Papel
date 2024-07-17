@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.logo {
+    margin-top: 5px;
+    margin-left: 16px;
+} 
+.bar {
+    background-color: #ffff; 
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9192a4;
+    font-weight: 600;
+
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+span {
+    color: #ffff;
+    background-color: red;
+    
+}
+.video {
+    display: flex;
+    justify-content: center;
+}
+.persons {
+    display: flex;    
+}
+.txt-persons {
+    text-align: justify;
+}
+.img-persons img {
+    width: 210px;
+    height: 260px;
+}
+.img-persons-gemeos  img {
+    width: 280px;
+    height: 260px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 90%;
+    border-radius: 20px;
+    background-color: rgb(201, 189, 189);
+    font-size: 15px;
+      
+}
+
+th {
+    font-size: 20px;
+}
+
+tr {
+    border-bottom: 2px solid #ffff;
+
+}
+
+.row-main {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
